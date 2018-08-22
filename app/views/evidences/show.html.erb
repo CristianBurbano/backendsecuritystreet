@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @evidence.user %>
+</p>
+
+<p>
+  <strong>Alarm:</strong>
+  <%= @evidence.alarm %>
+</p>
+
+<p>
+  <strong>Notaevidencia:</strong>
+  <%= @evidence.notaEvidencia %>
+</p>
+
+<p>
+  <strong>Rutaevidencia:</strong>
+  <%= @evidence.rutaEvidencia %>
+</p>
+
+<%= link_to 'Edit', edit_evidence_path(@evidence) %> |
+<%= link_to 'Back', evidences_path %>

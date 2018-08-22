@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  alarm: one
+  notaEvidencia: MyText
+  rutaEvidencia: MyString
+
+two:
+  user: two
+  alarm: two
+  notaEvidencia: MyText
+  rutaEvidencia: MyString
